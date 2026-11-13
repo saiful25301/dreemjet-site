@@ -1492,6 +1492,7 @@
           <div class="jet-img-wrap">
             <img
               src="pic2.png"
+              alt="ACJ TwoTwenty"
               loading="lazy"
             />
           </div>
@@ -1972,12 +1973,12 @@
     /* ──────────────────────────────────────────────────
        TESTIMONIAL SLIDER
     ────────────────────────────────────────────────── */
-    const track  = document.getElementById('testiTrack');
-    const dots   = document.querySelectorAll('.testi-dot');
+    const track   = document.getElementById('testiTrack');
+    const dots    = document.querySelectorAll('.testi-dot');
     const prevBtn = document.getElementById('testiPrev');
     const nextBtn = document.getElementById('testiNext');
-    let current  = 0;
-    const total  = dots.length;
+    let current   = 0;
+    const total   = dots.length;
     let autoTimer;
 
     function goTo(idx) {
@@ -2040,6 +2041,9 @@
       lazyImgs.forEach(img => imgIO.observe(img));
     }
   </script>
+
+  <!-- ===================== CIRCLE AI SUPPORT CHAT WIDGET ===================== -->
+  <script src="https://circle-ai-support-seven.vercel.app/widget.js" defer></script>
 
 </body>
 </html>
